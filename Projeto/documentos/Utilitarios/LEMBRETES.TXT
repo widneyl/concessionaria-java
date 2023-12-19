@@ -1,0 +1,18 @@
+14/11 -> Resolver o problema do cliente sem veiculos para troca (Resolvido)
+14/11 -> voltar pro menu principal quando o cliente não possui veiculos comprados (resolvido)
+        - Precisa cancelar todo o processo do cadastro de acordo com uma determinada entrada, fazer isso dentro do try{} não esta funcionando, ele não cancela o cadastro anterior por completo(Resolvido)
+14/11 -> Melhorar os tratamentos de excessões, talvez criar uma classe pra isso(...)
+15/11 -> O toString de cliente ainda esta com problema para a impressão dos veiculos comprados(Resolvido)
+19/11 -> Problema com o id do veiculo no cadastroDeVeiculos. O id não esta mais sendo visto pela classe, não é possivel remover, vender nem trocar(resolvido)
+        - O id foi melhorado, os metodos precisam ser reformulados(Resolvido)
+21/11 -> Melhorar os IDs dos objetos(Resolvido)
+21/11 -> Não esta imprimindo as opções de cadastro de carro ou moto(Resolvido)
+23/11 -> Fazer um metodo getClienteID() na classe CadastroCliente(Resolvido)
+23/11 -> Consertar a Função de remover cliente e a Função remover e Trocar veiculo(Resolvido)
+24/11 -> Fazer a impressão de Veiculos por categoria(Resolvido)
+25/11 -> Vender e trocar não estão funcionando devido ao filtro(resolvido)
+26/11 -> Trocar ainda esta com problemas(Resolvido)
+26/11 -> adicionar a opção de remover um veiculo da lista de veiculos que o cliente comprou(Resolvido)
+
+
+        
