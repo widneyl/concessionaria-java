@@ -189,9 +189,14 @@ public class menuPrincipal {
             System.out.print("\033c");
             menuinicialFuncionario();
 
-        } else {
+        }else if(cadastroVeiculo.getListVeiculos().isEmpty()) {
             System.out.print("\033c");
             System.out.println("Erro, você ainda não cadastrou nenhum veiculo");
+            menuinicialFuncionario();
+        }
+        else if(cadastroCliente.getListClientes().isEmpty()){
+            System.out.print("\033c");
+            System.out.println("Erro, você ainda não cadastrou nenhum Cliente");
             menuinicialFuncionario();
         }
     }
